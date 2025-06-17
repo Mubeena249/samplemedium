@@ -1,0 +1,31 @@
+*.navbar{
+    color: white;   
+}
+header{
+  width:100%;
+  border-bottom: 1px solid grey;
+  z-index:1;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.service h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.service h2{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}
+.font{
+   text-align: center;
+   align-items: center;
+    justify-content: center;
+}

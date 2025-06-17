@@ -1,0 +1,32 @@
+*.how h2{
+    font-family: 'Times New Roman', Times, serif;
+      font-size: 50px;
+      font-weight: 400;
+  }
+  .how,.form{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(100, 189, 237);
+  }
+  .card{
+   font-family:"Poppins", sans-serif;
+  }
+  
+   
+  .wisdom{
+    text-align: center;
+    justify-content: center;
+  }
+  .wisdom button{
+    width: 170px;
+  }
+  .wisdom h1{
+    font-family: 'Times New Roman', Times, serif;
+      font-size: 50px;
+      font-weight: 400;
+  
+  }
+  .card:hover{
+    background-color: cadetblue;
+  }
+  

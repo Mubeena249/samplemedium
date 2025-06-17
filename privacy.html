@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="privacy.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <header>
+       
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/Medium-.png" alt="" style="width: 120px;height: 30px;">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto  mb-2 mb-lg-0">
+              <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+                </form>
+              
+            </ul>
+
+       <!--Modal Starts Here-->
+       <div class="modal fade" id="write" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+             
+              <div class="modal-header">
+                <button data-bs-dismiss="modal" class="btn-close" style="justify-content: end;text-align: end;align-items: end;"></button>
+              </div>
+             <div class="modal-body p-3 justify-content-center align-items-center text-align-center">
+          
+              <h1 style="font-family: 'Times New Roman', Times, serif;color: black;justify-content:center;align-items:center; text-align:center;">Create an account to start writing</h1> <br><br>
+                    <button class="btn btn-outline-dark rounded-pill " type="button" style="width: 250px;height: 40px;">Sign in with google</button> <br><br>
+                    <button class="btn btn-outline-dark rounded-pill" type="button" style="width: 250px;height: 40px;">Sign in with Facebook</button> <br><br>
+                    <button class="btn btn-outline-dark rounded-pill" type="button" style="width: 250px;height: 40px;">Sign in with email</button>
+                 <br><br>   No account? Create one
+                 <p class="p-2" style="color: black;">Already have an account? Sign in</p>
+                 <p class="p-2" style="font-size: 10px;color: black;">Click “Sign in” to agree to Medium’s Terms of Service and acknowledge that <br>
+                  Medium’s Privacy Policy applies to you.</p>
+             </div>
+            
+            </div>
+        </div>
+        
+        </div>
+        
+        <!--Modal Ends Here-->  
+
+
+
+
+
+
+        <div class="p-2" data-bs-target="#write" data-bs-toggle="modal">
+         
+            <i class="bi bi-pencil-square"></i>    Write</div>
+
+
+            <!--Modal Starts Here-->
+<div class="modal fade" id="signup" data-bs-backdrop="static">
+  <div class="modal-dialog">
+      <div class="modal-content">
+       
+        <div class="modal-header">
+          <button data-bs-dismiss="modal" class="btn-close" style="justify-content: end;text-align: end;align-items: end;"></button>
+        </div>
+       <div class="modal-body p-3 justify-content-center align-items-center text-align-center">
+    
+        <h1 style="font-family: 'Times New Roman', Times, serif;color: black;justify-content:center;align-items:center; text-align:center;">Join Medium.</h1> <br><br>
+              <button class="btn btn-outline-dark rounded-pill " type="button" style="width: 250px;height: 40px;">Sign in with google</button> <br><br>
+              <button class="btn btn-outline-dark rounded-pill" type="button" style="width: 250px;height: 40px;">Sign in with Facebook</button> <br><br>
+              <button class="btn btn-outline-dark rounded-pill" type="button" style="width: 250px;height: 40px;">Sign in with email</button>
+           <br><br>   No account? Create one
+           <p class="p-2" style="color: black;">Already have an account? Sign in</p>
+           <p class="p-2" style="font-size: 10px;color: black;">Click “Sign in” to agree to Medium’s Terms of Service and acknowledge that <br>
+            Medium’s Privacy Policy applies to you.</p>
+       </div>
+      
+      </div>
+  </div>
+  
+  </div>
+  
+  <!--Modal Ends Here-->                       
+  
+  
+  
+              
+
+           
+     
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-success rounded-pill" type="button" style="border: 1px solid grey;"  data-bs-target="#signup" data-bs-toggle="modal">Sign up</button>
+          
+            </div>
+
+        
+              
+
+
+
+<!--Modal Starts Here-->
+<div class="modal fade" id="sign" data-bs-backdrop="static">
+  <div class="modal-dialog">
+      <div class="modal-content">
+       
+        <div class="modal-header">
+          <button data-bs-dismiss="modal" class="btn-close" style="justify-content: end;text-align: end;align-items: end;"></button>
+        </div>
+       <div class="modal-body p-3 justify-content-center align-items-center text-align-center">
+    
+        <h1 style="font-family: 'Times New Roman', Times, serif;color: black;justify-content:center;align-items:center; text-align:center;">Welcome back.</h1> <br><br>
+              <button class="btn btn-outline-dark rounded-pill " type="button" style="width: 250px;height: 40px;">Sign in with google</button> <br><br>
+              <button class="btn btn-outline-dark rounded-pill" type="button" style="width: 250px;height: 40px;">Sign in with Facebook</button> <br><br>
+              <button class="btn btn-outline-dark rounded-pill" type="button" style="width: 250px;height: 40px;">Sign in with Apple</button> <br><br>
+              <button class="btn btn-outline-dark rounded-pill" type="button" style="width: 250px;height: 40px;">Sign in with X</button> <br><br>
+              <button class="btn btn-outline-dark rounded-pill" type="button" style="width: 250px;height: 40px;">Sign in with email</button>
+           <br><br>   No account? Create one
+           <p class="p-2" style="color: black;">Forgot email or trouble signing in? Get help.</p>
+           <p class="p-2" style="font-size: 10px;color: black;">Click “Sign in” to agree to Medium’s Terms of Service and acknowledge that <br>
+            Medium’s Privacy Policy applies to you.</p>
+       </div>
+      
+      </div>
+  </div>
+  
+  </div>
+  
+  <!--Modal Ends Here-->
+              
+              
+
+
+            <div class="p-2" data-bs-target="#sign" data-bs-toggle="modal">
+              Sign in
+            </div>
+           
+
+
+
+
+<!--Modal Starts Here-->
+<div class="modal fade" id="image" data-bs-backdrop="static">
+  <div class="modal-dialog">
+      <div class="modal-content">
+       
+        <div class="modal-header">
+          <button data-bs-dismiss="modal" class="btn-close" style="justify-content: end;text-align: end;align-items: end;"></button>
+
+        </div>
+       <div class="modal-body p-3 justify-content-center align-items-center text-align-center">
+    
+        <h1 style="font-family: 'Times New Roman', Times, serif;color: black;justify-content:center;align-items:center; text-align:center;">Get started on Medium</h1> <br><br>
+              <button class="btn btn-outline-dark rounded-pill " type="button" style="width: 250px;height: 40px;background-color: green;color: white;">Sign up</button> <br><br>
+              <button class="btn btn-outline-dark rounded-pill" type="button" style="width: 250px;height: 40px;">Sign in</button> <br><br>        
+       </div>
+       <div class="modal-footer p-3 justify-content-center align-items-center text-align-center">
+      <p>  Become a Medium member 
+         <br> Create a Mastodan account
+          <br>Apply for author verification
+          <br>Apply to the Partner program
+          <br>Gift a Membership</p>
+       </div>
+      
+      </div>
+  </div>
+  
+  </div>
+  
+  <!--Modal Ends Here-->
+  <div class="p-2" data-bs-target="#image" data-bs-toggle="modal">
+    <h4>  <i class="bi bi-person-circle"></i></h4>
+    </div>
+
+            <div>
+              <img src="assets/Medium Terms of Service _ by Medium _ Medium Policy.html" alt="">
+            </div>
+        </div>
+         
+        </div>
+      </div>
+    </nav>
+</header>
+                    
+                  <section class="media" style="background-color: cornsilk;">
+                    <section class="container p-5">
+                        <div class="row">
+                            <di class="col-lg-12 col-md-12">
+                                  <h1>Medium Privacy Policy</h1>
+                                  <p>Effective date: March 24, 2022</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                             <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> You can see our previous Privacy Policy here.</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <p style="font-family:'Times New Roman', Times, serif">This Privacy Policy explains how A Medium Corporation (“Medium,” “we,” or
+                             “us”) collects, uses, and discloses information about you. This Privacy Policy
+                            applies when you use our websites, mobile applications, and other online
+                          Our Privacy Policy explains how we collect and use your information while
+                             our Rules outline your responsibilities when using our Services. By using our 
+                             Services, you’re agreeing to be bound by these Terms and our Rules. Please see our
+                             Privacy Policy for information about how we collect, use, share and
+                              otherwise process information about you. 
+                            
+                            </p>
+                            <p style="font-family:'Times New Roman', Times, serif">
+                              We may change this Privacy Policy from time to time. If we make changes,
+                               we will notify you by revising the date at the top of this policy and,
+                                in some cases, we may provide you with additional notice (such as adding a
+                                 statement to our website or providing you with a notification). We encourage
+                                  you to review this Privacy Policy regularly to stay informed about our
+                                   information practices and the choices available to you.
+                            </p>
+                             </div>                        
+                        </div>
+                    </section>
+                  </section>
+
+
+
+                           <section class="content">
+                            <section class="container p-5">
+                              <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                 <h4 style="color: crimson;font-family:'Times New Roman', Times, serif">CONTENTS</h4>
+                                 <ul>
+                                  <li><p style="font-size: 20px;font-family: 'Times New Roman', Times, serif;">Collection of Information</p></li>
+                                  <li><p style="font-size: 20px;font-family: 'Times New Roman', Times, serif;">Use of Information</p></li>
+                                  <li><p style="font-size: 20px;font-family: 'Times New Roman', Times, serif;">Sharing of Information</p></li>
+                                  <li><p style="font-size: 20px;font-family: 'Times New Roman', Times, serif;">Third-Party Embeds</p></li>
+                                  <li><p style="font-size: 20px;font-family: 'Times New Roman', Times, serif;">Transfer of Information to the United States and Other Countries</p></li>
+                                  <li><p style="font-size: 20px;font-family: 'Times New Roman', Times, serif;">Your Choices</p></li>
+                                  <li><p style="font-size: 20px;font-family: 'Times New Roman', Times, serif;">Your California Privacy Rights</p></li>
+                                  <li><p style="font-size: 20px;font-family: 'Times New Roman', Times, serif;">Additional Disclosures for Individuals in Europe</p></li>
+                                  <li><p style="font-size: 20px;font-family: 'Times New Roman', Times, serif;">Contact Us</p></li>
+                                 </ul>
+                                </div>
+                              </div>
+                            </section>
+                           </section>
+
+
+            
+
+                  <section class="account">
+                    <section class="container p-5">
+                        <div class="row">
+                            <di class="col-lg-12 col-md-12">
+                                  <h4 style="color: crimson;font-family:'Times New Roman', Times, serif" >COLLECTION OF INFORMATION</h4>
+                                  <p style="color: blueviolet;">Information You Provide to Us</p>
+                            </div>
+                           
+                            <div class="col-lg-6 col-md-6">
+                              <p style="font-family:'Times New Roman', Times, serif">
+                                We collect information you provide directly to us. For example, you share 
+                                information directly with us when you create an account, fill out a form,
+                                 submit or post content through our Services, purchase a membership, 
+                                 communicate with us via third-party platforms, request customer support,
+                                  or otherwise communicate with us. The types of personal information 
+                                  we may collect include your name, display name, username, bio, email 
+                                  address, business information, your content, including your avatar image, photos,
+                                   posts, responses, and series published by you, and any other information
+                                 you choose to provide.
+                            </p>
+                            <p style="font-family:'Times New Roman', Times, serif">In some cases, we may also collect information you provide about others,
+                               such as when you purchase a Medium membership as a gift for someone. We
+                                will use this information to fulfill your request and will not send 
+                                communications to your contacts unrelated to your request, unless they
+                                 separately consent to receive communications from us or otherwise engage with us.</p>
+                                 <p style="font-family:'Times New Roman', 'Times New Roman', Times, serif;">We do not collect payment information through our Services. We rely on 
+                                  third parties to process payments in connection with our Services. Any information you
+                                   provide to facilitate such a payment is subject to the third-party payment processor’s
+                                    privacy policy, and we encourage you to review this policy before you provide any information
+                                     to the payment processor.</p>
+                             </div>                        
+                        </div>
+                    </section>
+                  </section>
+
+
+
+
+
+
+
+
+
+                  <section class="account">
+                    <section class="container p-5">
+                        <div class="row">
+                            <di class="col-lg-6 col-md-6">
+                                  <h4 style="color: crimson;font-family:'Times New Roman', Times, serif">Information We Collect Automatically When You Interact with Us</h4>    
+                                  <p style="font-family:'Times New Roman', Times, serif">In some instances, we automatically collect certain information, including:</p>  
+                                  <ul>
+                                    <li><p style="font-family:'Times New Roman', Times, serif;font-weight: bold;color: cadetblue;">Activity Information:</p>
+                                      <p style="font-family:'Times New Roman', Times, serif;">  We collect information about your activity on our Services, such as your reading 
+                                      history and when you share links, follow users, highlight posts, and clap for posts.</p>
+                                    </li>
+                                    <li><p style="font-family:'Times New Roman', Times, serif;font-weight: bold;color: cadetblue;">Transactional Information: </p>
+                                      <p style="font-family:'Times New Roman', Times, serif;"> When you purchase a membership, we collect information about the transaction, such as subscription details,
+                                         purchase price, and the date of the transaction.</p>
+                                    </li>
+                                    <li><p style="font-family:'Times New Roman', Times, serif;font-weight: bold;color: cadetblue;">Device and Usage Information:</p>
+                                      <p style="font-family:'Times New Roman', Times, serif;">
+                                         We collect information about how you
+                                         access our Services, including data about the device and network you use,
+                                          such as your hardware model, operating system version, mobile network, IP
+                                           address, unique device identifiers, browser type, and app version. We also
+                                            collect information about your activity on our Services, such as access times,
+                                             pages viewed, links clicked, and the page you visited before navigating to our Services.</p>
+                                    </li>
+                                    <li><p style="font-family:'Times New Roman', Times, serif;font-weight: bold;color: cadetblue;">Information Collected by Cookies and Similar Tracking Technologies:</p>
+                                      <p style="font-family:'Times New Roman', Times, serif;">We use tracking technologies, such as cookies and web beacons, to
+                                       collect information about you. Cookies are small data files stored on your
+                                       hard drive or in device memory that help us improve our Services and your
+                                       experience, see which areas and features of our Services are popular, and
+                                       count visits. Web beacons (also known as “pixel tags” or “clear GIFs”) are
+                                       electronic images that we use on our Services and in our emails to help
+                                       deliver cookies, count visits, and understand usage. We also work with third
+                                       party analytics providers who use cookies, web beacons, device identifiers,
+                                       and other technologies to collect information about your use of our Services
+                                       and other websites and applications, including your IP address, web browser,
+                                       mobile network information, pages viewed, time spent on pages or in mobile
+                                       apps, and links clicked. This information may be used by Medium and others 
+                                       to, among other things, analyze and track data, determine the popularity of
+                                       certain content, deliver content targeted to your interests on our Services,
+                                       and better understand your online activity. For more information about cookies
+                                       and how to disable them, see Your Choices below.</p>
+                                    </li>
+                                  
+                                  
+
+                                  </ul>                          
+                            </div>
+                           
+                                                  
+                        </div>
+                    </section>
+                  </section>
+
+                  <section class="accounter">
+                    <section class="container p-5">
+                        <div class="row">
+                            <di class="col-lg-6 col-md-6">
+                                  <h1 style="color: crimson;font-family:'Times New Roman', Times, serif;">Information We Collect from Other Sources</h1>                                
+                            </div>
+                           
+                            <div class="col-lg-6 col-md-6">
+                              <p style="font-family:'Times New Roman', Times, serif">
+                                We obtain information from third-party sources. For example, we
+                                may collect information about you from social networks, accounting 
+                                services providers and data analytics providers. Additionally, if you
+                                create or log into your Medium account through a third-party platform
+                                (such as Apple, Facebook, Google, or Twitter), we will have access to
+                                certain information from that platform, such as your name, lists of 
+                                friends or followers, birthday, and profile picture, in accordance
+                                with the authorization procedures determined by such platform.
+                                 
+                                 <br><br>This type of license also is needed to distribute your content across our
+                                  Services. For example, you post a story on Medium. It is reproduced as
+                                  versions on both our website and app, and distributed to multiple places
+                                  within Medium, such as the homepage or reading lists. A modification might
+                                  be that we show a snippet of your work (and not the full post) in a preview,
+                                  with attribution to you. A derivative work might be a list of top authors or 
+                                 quotes on Medium that uses portions of your content, again with full 
+                                 attribution. This license applies to our Services only, and does not grant us
+                                  any permissions outside of our Services.                                 
+                             </div>                        
+                        </div>
+                    </section>
+                  </section>
+                         
+                    
+                  <section class="accountant">
+                    <section class="container p-5">
+                        <div class="row">
+                            <di class="col-lg-6 col-md-6">
+                                  <h1 style="color: crimson;font-family:'Times New Roman', Times, serif ">YOUR CALIFORNIA PRIVACY RIGHTS</h1>                                
+                            </div>
+                           
+                            <div class="col-lg-6 col-md-6">
+                              <p style="font-family:'Times New Roman', Times, serif">
+                                The California Consumer Privacy Act or “CCPA” (Cal. Civ. Code § 1798.100 et seq.) 
+                                affords consumers residing in California certain rights with respect to their
+                                 personal information. If you are a California resident, this section applies to you.
+                                 <p style="font-family:'Times New Roman', Times, serif">In the preceding 12 months, we have collected the following categories
+                                   of personal information: identifiers, commercial information, internet or
+                                    other electronic network activity information, and inferences. For details
+                                     about the precise data points we collect and the categories of sources of
+                                      such collection, please see the Collection of Information section above. 
+                                      We collect personal information for the business and commercial purposes
+                                       described in the Use of Information section above. In the preceding 12 
+                                       months, we have disclosed the following categories of personal information
+                                        for business purposes to the following categories of recipients:</p>
+
+                                        <img src="assets/table.webp" alt="">
+                             </div>                        
+                        </div>
+                    </section>
+                  </section>
+
+
+
+
+
+
+                  <section class="rule">
+                    <section class="container-fluid p-5" style="background-color:floralwhite;justify-content: center;align-items: center;align-items: center;">
+                      <div class="row">
+                        <div class="col-lg-12 col-md-12 p-5">
+                          <h3 style="color: darkblue;font-family:'Times New Roman', Times, serif ">Privacy representative for EEA</h3>
+                          Unit 3D North Point House<br>
+                          North Point Business Park <br>
+                          New Mallow Road<br>
+                          Cork T23AT2P <br>
+                          Ireland
+                        </div>
+
+                        <div class="col-lg-12 col-md-12 p-5">
+                          <h3 style="color: darkblue; font-family:'Times New Roman', Times, serif">Privacy representative for the United Kingdom</h3>
+                          37 Albert Embankment<br>
+                          London SE1 7TL <br>
+                          United Kingdom<br>
+                          
+                        </div>
+                      </div>
+                    </section>
+                  </section>
+
+                  <section class="accountee">
+                    <section class="container">
+                        <div class="row">
+                            <di class="col-lg-12 col-md-12">
+                                  <h1 style="color: crimson;font-family:'Times New Roman', Times, serif ">Recommended from Medium</h1>                                
+                            </div>
+                           
+                                         
+                        </div>
+                    </section>
+                  </section>
+
+                  <section class="container p-5 justify-content-center text-align-center align-items-center">
+                    <div class="row">
+                 
+                     <div class="flex"> 
+    
+    
+                      <div class="col-lg-6 col-md-6">
+        
+                        <div class="read p-2">
+                       <figure>
+                      <img src="assets/graph.webp" style="height: 350px;"></figure>
+                        <h6 style="font-family: 'Times New Roman', Times, serif;font-size: 20px;color: chocolate;">
+                          In DataDrivenInvestor by Austin Starks                                       
+                          </h6>
+                       <h5 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">I used Open AI's o1 model to develop a trading strategy </h5>
+                       <p>It literally took one try.I was shocked
+                       <p>Sep 16,2024  <i class="bi bi-chat-fill"></i> 207</p>
+                      
+                    </div>     </div>   
+                       
+                         <div class="col-lg-6 col-md-6">
+        
+                             <div class="read p-2">
+                            <figure>
+                           <img src="assets/program.webp" style="height: 350px;"></figure>
+                             <h6 style="font-family: 'Times New Roman', Times, serif;font-size: 20px;color: chocolate;">In the Medium Blog by Scott Lamb</h6>
+                            <h5 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >Why we have suspended some partner programs?</h5>
+                            <p>Addressing response spam and abuse to make Partner Program better for writers
+                            </p>
+                          
+                            <p>4d ago    <i class="bi bi-chat-fill"></i> 1165</p>
+                           
+                         </div>     </div>   
+                 
+                         <div class="col-lg-6 col-md-6">
+                         <div class="read p-2">
+                            <figure>
+                            <img src="assets/anim.webp" style="height: 350px;"></figure>
+                            <h6 style="font-family: 'Times New Roman', Times, serif;font-size: 20px;color: chocolate;">In Better Programming by Kenneth Leung</h6>
+                             <h5 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >Text-to-Audio Generation with Bark,Clearly Explained</h5>
+                             <p>Discover the capabilities and intricacies of Bark,the open-source Generative AI model
+                             </p>
+                            <p>October 9, 2023 <i class="bi bi-chat-fill"></i> 5</p>
+                            
+                         </div>
+                     </div> 
+                     <div class="col-lg-6 col-md-6">
+                         <div class="read p-2">
+                            <figure>
+                          <img src="assets/author.webp" style="height: 350px;"></figure>
+                          <h6 style="font-family: 'Times New Roman', Times, serif;font-size: 20px;color: chocolate;">In Write A Catalyst by Derek Hughes</h6>
+                          <h5 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">What 95% of Writers Don't Understand About Building</h5>
+                          <p>How I started earning $3500/month
+                          </p>
+                             <p>Jan 7<i class="bi bi-chat-fill"></i> 99</p>
+                            
+                         </div>
+                     </div> 
+        
+                     <div class="col-lg-6 col-md-6">
+                        <div class="read p-2">
+                           <figure>
+                         <img src="assets/empire.webp" style="height: 350px;"></figure>
+                         <h6 style="font-family: 'Times New Roman', Times, serif;font-size: 20px;color: chocolate;">Grant Piper</h6>
+                            <h5 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >How the Holy Roman Empire became both Holy and Roman</h5>
+                            <p>Because for a time it was both
+                            </p>
+                            <p>2d ago <i class="bi bi-chat-fill"></i> 1</p>
+                           
+                        </div>
+                    </div> 
+                    <div class="col-lg-6 col-md-6">
+                        <div class="read p-2">
+                           <figure>
+                         <img src="assets/free.webp" style="height: 350px;"></figure>
+                         <h6 style="font-family: 'Times New Roman', Times, serif;font-size: 20px;color: chocolate;" >In the generator by LInda Carol</h6>
+                            <h5 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">I Don't Know How To Make You Care What ChatGPT is ?</h5>
+                            <p>Over half of the internet is now AI generated text
+                            </p>
+                            <p>Jan 1 <i class="bi bi-chat-fill"></i> 527</p>
+                           
+                        </div>
+                    </div> 
+                 
+                    
+                 
+              </div>
+                     </div>
+                    </div>
+               </section>
+
+
+
+
+
+
+               <footer>
+              <section class="container" style="border-top: 1px solid grey;">
+                 <div class="row">
+                      <div class="col-lg-12 col-md-12 d-flex justify-content-center align-items-center">
+                        <div class="p-2">   <a href="help.html" style="color: black;">Help</a></div>
+                         <div class="p-2">  <a href="status.html" style="color: black;"> Status </a></div>
+                        <div class="p-2">     <a href="ourstory.html" style="color: black;"> About </a></div>
+                        <div class="p-2">     <a href="careers.html" style="color: black;"> Careers </a></div>
+                        <div class="p-2">     <a href="privacy.html" style="color: black;">Privacy</a> </div>
+                        <div class="p-2">      <a href="terms.html" style="color: black;"> Terms</a> </div>
+                        <div class="p-2">      <a href="teams.html" style="color: black;">Teams </a></div>
+                        
+                          
+                           </div>
+                      </div>
+                 </div>   </section>
+               </footer>
+
+</body>
+</html>

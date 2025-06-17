@@ -1,0 +1,43 @@
+*.navbar{
+      color: white;   
+}
+header{
+    width:100%;
+    border-bottom: 5px solid grey;
+    z-index:1;
+    background-color: black;
+}
+.story h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+    font-weight: 400;
+}
+.medium p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+.goal p{
+    color: white;
+    font-size: 35px;
+    font-weight: 200;
+}
+.start h1{
+    border-top: 1px solid grey;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 400;
+    padding: 40px;
+}
+.start h1:hover{
+    background-color: white;
+    color: black;
+}
+.modal-body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+

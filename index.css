@@ -1,0 +1,53 @@
+*.start img{
+    height:600px ;
+    width: 80%;
+    background-color:beige;
+    justify-content: end;
+    text-align: end;
+    align-items: end;
+}
+.start{
+    background-color:beige;
+    margin-bottom: 10px solid grey;
+ 
+}
+
+.start h2{
+   color:black;
+   justify-content:start;
+   align-items: center;
+   padding: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 100px;
+   font-weight: 500;
+  
+}
+.start p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 20px;
+}
+.start button{
+    width:180px;
+    height:50px;
+    background-color: black;
+    color: white;
+}
+header{
+    width:100%;
+    border-bottom: 1px solid grey;
+    background-color: beige;
+}
+
+.modal-body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.end{
+   background-color: beige; 
+}
+footer{
+    border-top: 1px solid grey;
+}

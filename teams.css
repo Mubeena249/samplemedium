@@ -1,0 +1,21 @@
+*.navbar{
+    color: white;   
+}
+header{
+  width:100%;
+  border-bottom: 5px solid grey;
+  z-index:1;
+  background-color: black;
+}
+.modal-body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.level img{
+    padding: 20px;
+}

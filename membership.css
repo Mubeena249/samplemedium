@@ -1,0 +1,58 @@
+*.support h1,.why h1,.plan h1,.what h1,.wisdom h1{
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: 400;
+
+}
+.support,.wisdom{
+  border-bottom: 1px solid grey;
+}
+.support p{
+    font-size: 25px;
+    font-weight: 100;
+    color: gray;
+    font-family: "Poppins", sans-serif;
+}
+.why{
+  border-bottom:1px solid grey ;
+}
+.why:hover{
+  background-color: aqua;
+}
+.why p{
+  font-size: 20px;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+}
+.why h2{
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 1px solid grey;
+}
+.what p{
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'Times New Roman', Times, serif;
+}
+.what,.plan{
+  border-bottom: 1px solid grey;
+}
+.wisdom{
+  text-align: center;
+  justify-content: center;
+}
+.wisdom button{
+  width: 120px;
+
+}
+.plan h1{
+  position:sticky;
+  bottom: 0;
+  z-index: 1;
+}
+.modal-body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

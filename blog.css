@@ -1,0 +1,28 @@
+*.navbar{
+    color: white;   
+}
+header{
+  width:100%;
+  border-bottom: 1px solid grey;
+  z-index:1;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.gift img{
+    width: 800px;
+    height: 400px;
+}
+.read figure{
+    text-align: start;
+    padding: 10px;
+}
+.read figure img{
+    width: 100%;
+    text-align: start;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}

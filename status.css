@@ -1,0 +1,13 @@
+*.media,.media img,.about ,.site
+{
+text-align: start;
+justify-content: start;
+}
+.media img
+{
+text-align: center;
+justify-content: center;
+}
+.site span:hover{
+    background-color: cyan;
+}
